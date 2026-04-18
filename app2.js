@@ -3,11 +3,16 @@ const app = express();
 
 app.use(express.json());
 
-// Fake database
+// Dataset
 let users = [
     { id: 1, name: "Moses" },
     { id: 2, name: "John" },
-    { id: 3, name: "Sarah" }
+    { id: 3, name: "Sarah" },
+     { id: 4, name: "kwame" },
+     { id: 5, name: "Adom" },
+    { id: 6, name: "Sarah" },
+     { id: 7, name: "Gifty" },
+     { id: 8, name: "Micheal" }
 ];
 
 // GET all users
